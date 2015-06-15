@@ -11,7 +11,7 @@ to your /etc/default/docker file
 To run:
 Mount the directory containing the key and crt you want to use with nginx
 
-`docker run -d -p 4242:4242 -v ./docker_daemon_ssl:/etc/nginx/ssl --name daemon_proxy listerine/docker-secure-api:latest`
+`docker run -d -p 4242:4242 -v ./docker_daemon_ssl:/etc/nginx/certs --name daemon_proxy listerine/docker-secure-api:latest`
 
 To generate the servers cert and key you can use these instructions:
 
