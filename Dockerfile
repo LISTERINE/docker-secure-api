@@ -1,4 +1,4 @@
-FROM FROM nginx
+FROM nginx
 MAINTAINER Jonathan Ferretti
 
 RUN git clone https://github.com/LISTERINE/docker-secure-api.git
